@@ -1,0 +1,94 @@
+/* Certificando de que a pagina usará 100% da altura */
+html,
+body {
+  min-height: 100%;
+}
+/* Removendo as presets do navegador e colocando as minhas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+/* Adicionando plano de fundo ao corpo da pagina*/
+body {
+  background-image: url("abstractwhite.jpg");
+}
+
+/*Centralizando logo ao topo */
+
+#brand {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+/* Centralizando conteiner do formulario */
+#form-conteiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilizando o conteudo do interior do conteiner do formulário */
+#form-inner {
+  width: 20%;
+  padding: 2rem;
+}
+
+/* Aplicando estilo ao titulo h3 e centralizando  */
+#form-inner h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff0808a2;
+}
+
+/* Aplicando estilo ao paragrafo e centralizando  */
+#form-inner p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilizando a parte que contem entradas e texto */
+#register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Estilizando os inputs separadamente */
+#register-form input {
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 3rem;
+  border: 2px solid rgb(136, 136, 136);
+}
+
+/* Estilizando os labels separadamente */
+#form-inner label {
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+/* Mudando o cursor do input tipo date */
+#register-form input[type="date"] {
+  cursor: text;
+}
+
+/* Mudando o cursor do input tipo submit */
+
+#register-form input[type="submit"] {
+  margin-top: 15px;
+  color: rgba(255, 0, 0, 0.644);
+  border: 2px solid rgb(95, 95, 95);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* Fazendo com que o submit mude de cor quando o mouse é colocado acima */
+#register-form input[type="submit"]:hover {
+  background-color: rgba(255, 0, 0, 0.781);
+  color: rgb(255, 255, 255);
+}

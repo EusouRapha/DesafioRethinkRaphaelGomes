@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detran: Cadastro Online por Raphael Gomes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="brand">
+      <a href="https://www.detran.mg.gov.br/">
+        <img src="detran.png" alt="Detran" />
+      </a>
+    </div>
+    <div id="form-conteiner">
+      <div id="form-inner">
+        <h3>CADASTRE-SE</h3>
+        <p>Faça o cadastro para acompanhar a entrega da sua CNH</p>
+        <form id="register-form">
+          <label for="text">Nome:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome"
+          />
+          <label for="text">Idade:</label>
+          <input
+            type="number"
+            name="idade"
+            id="idade"
+            placeholder="Digite sua idade"
+          />
+          <label for="text">Profissão:</label>
+          <input
+            type="text"
+            name="profissao"
+            id="profissao"
+            placeholder="Digite sua profissão"
+          />
+          <label for="text">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+          />
+          <label for="text">Telefone:</label>
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="Digite seu telefone"
+          />
+          <label for="text">Data de Preenchimento:</label>
+          <input
+            type="date"
+            name="datapreenchimento"
+            id="datapreenchimento"
+            placeholder="Data de Preenchimento"
+          />
+          <input type="submit" value="Cadastrar" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
